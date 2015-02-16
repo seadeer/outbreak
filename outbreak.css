@@ -1,7 +1,22 @@
 body{
   background-color: lightgray;
+  font-family: Monsterrat; 
 }
 
 h1{
+  background-color: darkgray;
+  padding: 10px;
+  text-align: center;
+}
 
+section{
+  width: 75%;
+}
+
+#credits{
+  background-color: darkgray;
+  width: 35%;
+  float: left;
+  margin-left: 1em;
+  padding: 0.5em;
 }
