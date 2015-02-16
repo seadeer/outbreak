@@ -57,3 +57,11 @@ button{
   margin-top: 7px;
 }
 
+footer{
+  background-color: darkgray;
+  width: 75%;
+  bottom: 0;
+  position: fixed;
+  padding: 0.5em;
+}
+
