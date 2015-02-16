@@ -1,22 +1,60 @@
-body{
+body
+{
   background-color: lightgray;
-  font-family: Monsterrat; 
+  font-family: monospace; 
 }
 
-h1{
+section
+{
+  margin-top: 1em;
+  margin-left: 1em;
+  padding: 0.5em;
+}
+
+header
+{
   background-color: darkgray;
+  width: 75%;
   padding: 10px;
   text-align: center;
+  float: left;
 }
 
-section{
-  width: 75%;
+header img.left
+{
+  float: left;
+  margin-left: 15px;
+  height:50px;
+}
+
+header img.right
+{
+  float: right;
+  margin-right: 15px;
+  height:50px;
+}
+
+#title{
+  display: inline;
+  vertical-align: middle;
 }
 
 #credits{
   background-color: darkgray;
-  width: 35%;
+  clear: both;
+  width: 25%;
   float: left;
-  margin-left: 1em;
-  padding: 0.5em;
 }
+
+#input{
+  background-color: darkgray;
+  float: left;
+  clear: both;
+}
+
+button{
+  display: block;
+  margin-top: 7px;
+  
+}
+
