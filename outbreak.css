@@ -52,6 +52,12 @@ header img.right
   clear: both;
 }
 
+#output{
+  background-color: darkgray;
+  float: left;
+  clear: both;
+}
+
 #description{
   float: left;
 }

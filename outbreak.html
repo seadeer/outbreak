@@ -17,20 +17,20 @@
   
 <section id="Input">
   <h3>Select country and virus</h3>
-  <form action="http://localhost:8088/outbreak" method="POST">
-    <p>Country:
+  <form>
+    <label>Country</label>
       <select id= "countries" name="countries">
         <option value="DRC">DRC</option>
         <option value="US">USA</option>
       </select>
-    </p>
-    <p>Virus:
+    
+    <label>Virus</label>
       <select id = "viruses" name="viruses">
         <option value="Ebola">Ebola</option>
         <option value="rhinovirus">rhinovirus</option>
       </select>
-      <button>Submit</button>
-    </p>
+      <button id = "submit">Submit</button>
+    
   </form>
   
 </section>
@@ -41,7 +41,7 @@
   <p>Created by Anna Clawson. Code Fellows Foundations of Computer Science and Web Development. February 2015</p>
 </footer>
 
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="js/outbreak.js"></script>
 </body>
 </html>
