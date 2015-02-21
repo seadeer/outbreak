@@ -80,9 +80,12 @@ $("button").on('click', function(e){
   e.preventDefault();
   var countryName = $("#countries option:selected").val();
   var virusName = $("#viruses option:selected").val();
-    
-  var country = new Population(countryName, countryData[countryName][0], countryData[countryName][1], countryData[countryName][2]);
-  var virus = new Virus(virusName, virusData[virusName][0], virusData[virusName][1], virusData[virusName][2]);
+
+  var cData = countryData[countryName];
+  var vData = virusData[virusName];
+  
+  var country = new Population(countryName, cData[0], cData[1], cData[2]);
+  var virus = new Virus(virusName, vData[0], vData[1], vData[2]);
 
   $("#Output").append('<p>' + country.report(virus) + '</p>');
 
