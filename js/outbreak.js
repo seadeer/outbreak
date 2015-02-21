@@ -62,15 +62,8 @@ var Population = function(popname, cases, wash, contact)
   {
       return "In " + this.popname + ", there are " + Math.floor(this.infected(virname)) + " new cases of " + virname.Virname + ".";
   };
-            
+
 }
-
-
-var DRC = new Population("DRC", 10, 0.5, 10);
-var US = new Population("US", 2, 0.7, 5);
-
-var ebola = new Virus("Ebola", false, true, 2);
-var rhinovirus = new Virus("rhinovirus", true, true, 6);
 
 var countryData = {
   DRC: [10, 0.5, 10],
