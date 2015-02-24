@@ -86,8 +86,18 @@ $("button").on('click', function(e){
   
   var country = new Population(countryName, cData[0], cData[1], cData[2]);
   var virus = new Virus(virusName, vData[0], vData[1], vData[2]);
+   
+  $("#Input").append('<label>Is the outbreak still continuing?</label>' +
+     '<select id="continue">
+     <option value = "yes">yes</option>
+     <option value = "no">no</option>
+     </select>');
 
-  $("#Output").append('<p>' + country.report(virus) + '</p>');
+  $("#Input").append('<section id="Input"><p>' + country.report(virus) + '</p></section>');
+ 
+
+
+
 
 });
   
