@@ -47,7 +47,7 @@ var Population = function(popname, cases, wash, contact)
     
     else if (virname.Fomite == true && virname.CloseContact == true)
     {
-        cases = this.Cases * ((1 - this.WashingHands)+this.Contacts) * virname.Contagiousness * (Math.random()*10) * Math.random();
+        this.Cases = this.Cases * ((1 - this.WashingHands)+this.Contacts) * virname.Contagiousness * (Math.random()*10) * Math.random();
         return this.Cases;
     }
 
@@ -95,16 +95,18 @@ $(".initial").on('click', function(e){
 //changing the behavior of "Submit" button
   $("button").removeClass('initial').addClass('continue').text('Continue');
 
+    $(".continue").on('click', function(){  
+    if ($("#continue").val() == "yes"){      
+      $("#Output").append('<p>' + country.report(virus) + '</p>');
+    }
+    else if ($("#continue").val() == "no"){
+      $("#Output").append('<p>' + "The outbreaks is over!" + '</p>');
+    }
+  });
+
 });
 
-$(".continue").on('click', function(){  
-  if ($("#continue").val() == "yes"){      
-    $("#Output").append('<p>' + country.report(virus) + '</p>');
-  }
-  else if ($("#continue").val() == "no"){
-    $("#Output").append('<p>' + "The outbreaks is over!" + '</p>');
-  }
-});
+
 
 
   
