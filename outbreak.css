@@ -63,8 +63,14 @@ header img.right
 }
 
 button{
+  background-color: #b8211b;
+  font-family: Arial;
+  font-size: 1em;
+  border-color: darkgray;
   display: block;
   margin-top: 7px;
+  border-radius: 10px;
+  padding: 7px;
 }
 
 footer{

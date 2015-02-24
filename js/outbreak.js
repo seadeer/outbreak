@@ -86,18 +86,23 @@ $("button").on('click', function(e){
   
   var country = new Population(countryName, cData[0], cData[1], cData[2]);
   var virus = new Virus(virusName, vData[0], vData[1], vData[2]);
+
+//adding the outbreak report to the html
    
-  $("#Input").append('<label>Is the outbreak still continuing?</label>' +
-    '<select id="continue">
-    <option value = "yes">yes</option>
-    <option value = "no">no</option>
-    </select>');
+  $("#Input").append('<label>Is the outbreak still continuing? </label>' + '<select id="continue"><option value = "yes">yes</option><option value = "no">no</option></select>');
 
   $("#Input").append('<section id="Input"><p>' + country.report(virus) + '</p></section>');
- 
 
+// //changing the behavior of "Submit" button
+//   $("button")on.('click', function(e){  
+//     e.preventDefault();
+//     if ($(#continue).val() == "yes"){      
+//       $("#Input").append('<section id="Input"><p>' + country.report(virus) + '</p></section>');
+//     }
+//     else {
+//        $("#Input").append('<section id="Input"><p>' The outbreaks is over '</p></section>');
+//     }
 
-
-
+   
 });
   
