@@ -88,10 +88,10 @@ $("button").on('click', function(e){
   var virus = new Virus(virusName, vData[0], vData[1], vData[2]);
    
   $("#Input").append('<label>Is the outbreak still continuing?</label>' +
-     '<select id="continue">
-     <option value = "yes">yes</option>
-     <option value = "no">no</option>
-     </select>');
+    '<select id="continue">
+    <option value = "yes">yes</option>
+    <option value = "no">no</option>
+    </select>');
 
   $("#Input").append('<section id="Input"><p>' + country.report(virus) + '</p></section>');
  
