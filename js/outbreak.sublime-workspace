@@ -1,0 +1,474 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cou",
+				"country"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"p",
+				"prompt"
+			],
+			[
+				"v",
+				"virname"
+			],
+			[
+				"popu",
+				"population1"
+			],
+			[
+				"pop",
+				"population1"
+			],
+			[
+				"Co",
+				"Contacts"
+			],
+			[
+				"Con",
+				"Contagiousness"
+			],
+			[
+				"Conta",
+				"ContactNumber"
+			],
+			[
+				"Wash",
+				"WashingHands"
+			],
+			[
+				"W",
+				"WashHands"
+			],
+			[
+				"c",
+				"cont"
+			],
+			[
+				"cc",
+				"cc"
+			],
+			[
+				"td",
+				"td	Tag"
+			],
+			[
+				"for",
+				"form	Tag"
+			],
+			[
+				"h",
+				"href	Attr"
+			],
+			[
+				"nu",
+				"numbers"
+			],
+			[
+				"M",
+				"MakeRandomNumbers"
+			],
+			[
+				"num",
+				"num2"
+			],
+			[
+				"gr",
+				"group"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"rev",
+				"reversestring"
+			],
+			[
+				"st",
+				"str"
+			],
+			[
+				"App",
+				"App"
+			],
+			[
+				"have",
+				"have_selector"
+			],
+			[
+				"cont",
+				"contact"
+			],
+			[
+				"li",
+				"lightgray"
+			],
+			[
+				"l",
+				"lightgray"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"let",
+				"letter-spacing"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"head",
+				"header	Tag"
+			],
+			[
+				"n",
+				"name"
+			],
+			[
+				"ha",
+				"have_title"
+			],
+			[
+				"ro",
+				"routing"
+			],
+			[
+				"contro",
+				"controller"
+			],
+			[
+				"C",
+				"Contact"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 201.0,
+		"selected_items":
+		[
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/anna/projects/sort.py",
+		"/home/anna/projects/outbreak/js/outbreak.js",
+		"/home/anna/projects/jsexamples/c06/js/event-handler.js",
+		"/home/anna/projects/jsexamples/c06/event-handler.html",
+		"/home/anna/projects/outbreak/outbreak.html",
+		"/home/anna/projects/jsexamples/c06/form.html",
+		"/home/anna/projects/jsexamples/c06/js/form.js",
+		"/home/anna/projects/outbreak/outbreak.css",
+		"/home/anna/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/anna/projects/SlotMachineGame/guessing_game.html",
+		"/home/anna/projects/model1/model1.html",
+		"/home/anna/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/anna/projects/etsy_outline/etsy_outline.txt",
+		"/home/anna/projects/etsy_outline/etsy_frontpage_outline.html",
+		"/home/anna/projects/phonebook.html",
+		"/home/anna/projects/guessing_game.html",
+		"/home/anna/documents/important documents/info.txt~",
+		"/home/anna/codefellows/html_projects/index.html",
+		"/home/anna/codefellows/html_projects/stylesheet.css",
+		"/home/anna/projects/sample_app/app/views/static_pages/help.html.erb",
+		"/home/anna/projects/sample_app/public/404.html",
+		"/home/anna/projects/new.txt",
+		"/home/anna/projects/RPScgame.js",
+		"/home/anna/projects/ex3.py",
+		"/home/anna/projects/ex2.py",
+		"/home/anna/projects/ex1.py",
+		"/home/anna/projects/sample_app/spec/helpers/application_helper_spec.rb",
+		"/home/anna/projects/sample_app/app/models/user.rb",
+		"/home/anna/projects/sample_app/app/controllers/users_controller.rb",
+		"/home/anna/projects/sample_app/Gemfile",
+		"/home/anna/projects/sample_app/spec/support/utilities.rb",
+		"/home/anna/exercism/ruby/hamming/GETTING_STARTED.md",
+		"/home/anna/projects/snippets/counter.rb",
+		"/home/anna/exercism/ruby/hamming/hamming.rb",
+		"/home/anna/exercism/ruby/hamming/hamming_test.rb",
+		"/home/anna/exercism/ruby/hamming/README.md",
+		"/home/anna/projects/sample_app/app/controllers/application_controller.rb",
+		"/home/anna/projects/sample_app/app/controllers/static_pages_controller.rb",
+		"/home/anna/.rvm/gems/ruby-2.1.2@rails4.1/gems/actionpack-4.1.6/lib/action_controller/base.rb",
+		"/home/anna/projects/sample_app/spec/requests/user_pages_spec.rb",
+		"/home/anna/projects/sample_app/spec/requests/static_pages_spec.rb",
+		"/home/anna/projects/sample_app/app/views/static_pages/home.html.erb",
+		"/home/anna/projects/sample_app/config/application.rb",
+		"/home/anna/projects/sample_app/app/views/layouts/application.html.erb",
+		"/home/anna/projects/sample_app/app/views/users/new.html.erb",
+		"/home/anna/projects/sample_app/config/routes.rb",
+		"/home/anna/projects/sample_app/app/views/layouts/_footer.html.erb",
+		"/home/anna/projects/sample_app/app/views/layouts/_header.html.erb",
+		"/home/anna/projects/sample_app/app/assets/stylesheets/custom.css.scss",
+		"/home/anna/projects/sample_app/app/views/layouts/_shim.html.erb",
+		"/home/anna/projects/sample_app/app/helpers/application_helper.rb",
+		"/home/anna/projects/sample_app/example_user.rb",
+		"/etc/ssh/sshd_config",
+		"/etc/ssh/ssh_config",
+		"/home/anna/.rvm/rubies/ruby-2.0.0-p481/config",
+		"/home/anna/projects/sample_app/app/views/static_pages/contact.html.erb",
+		"/home/anna/projects/sample_app/app/views/static_pages/about.html.erb",
+		"/home/anna/projects/sample_app/Guardfile",
+		"/home/anna/projects/sample_app/spec/spec_helper.rb",
+		"/home/anna/projects/sample_app/config/environments/development.rb",
+		"/home/anna/projects/sample_app/.gitignore",
+		"/home/anna/projects/sample_app/G",
+		"/etc/mysql/my.cnf.old",
+		"/home/anna/projects/demo_app/app/models/micropost.rb",
+		"/home/anna/projects/demo_app/app/models/user.rb",
+		"/home/anna/projects/demo_app/push",
+		"/home/anna/projects/demo_app/config/routes.rb",
+		"/home/anna/projects/demo_app/app/controllers/microposts_controller.rb",
+		"/home/anna/projects/microposts/push",
+		"/home/anna/projects/demo_app/app/views/users/index.html.erb",
+		"/home/anna/projects/demo_app/app/controllers/users_controller.rb",
+		"/home/anna/projects/demo_app/app/views/layouts/application.html.erb"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"header",
+			"IndexCases",
+			"IndexCase",
+			"IndexCases",
+			"ind",
+			"Virus",
+			"infected",
+			"WashHands",
+			"Number",
+			"tr",
+			"p",
+			"><",
+			"tr",
+			"button",
+			"tr",
+			"><",
+			"<tr>",
+			"left:",
+			"body",
+			"4000000",
+			"0",
+			"full_title",
+			"lightgray",
+			"link_to",
+			"innodb"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"grayLight"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "outbreak.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 285.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 358.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
