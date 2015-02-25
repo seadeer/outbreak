@@ -60,7 +60,7 @@ var Population = function(popname, cases, wash, contact)
 
   this.report = function(virname)
   {
-      return "<strong>" + " Outbreak " + "</strong>" + "of " + "<strong>" + virname.Virname + "</strong>" + " in " + this.popname + "!" + "\n" + Math.floor(this.infected(virname)) + " new cases.";
+      return "<strong>" + " Outbreak " + "</strong>" + "of " + "<strong>" + virname.Virname + "</strong>" + " in " + this.popname + "!" + "\n" + "<strong>" + Math.floor(this.infected(virname)) + "</strong>" + " new cases.";
   };
 
 }
@@ -92,19 +92,19 @@ $(".initial").on('click', function(e){
 
     country = new Population(countryName, cData[0], cData[1], cData[2]);
     virus = new Virus(virusName, vData[0], vData[1], vData[2]);
-    $("#Input").append('<label>Is the outbreak still continuing? </label>' + '<select id="continue"><option value = "yes">yes</option><option value = "no">no</option></select>');
+    $("#Input").append('<h3>Is the outbreak still continuing?</h3>' + '<select id="continue"><option value = "yes">yes</option><option value = "no">no</option></select>');
 
-    $("#Input").append('<section id="Output"><p>' + country.report(virus) + '</p></section>');
+    $("#Input").append('<section id="Output"><h4>' + country.report(virus) + '</h4></section>');
   }
   else if($(this).hasClass('continue')) {
     console.log("cont pressed");
     if ($("#continue").val() == "yes"){
-      $('#Output>p').remove();
+      $('#Output>h4').remove();
       console.log("cont yes");
-      $("#Output").append('<p>' + country.report(virus) + '</p>');
+      $("#Output").append('<h4>' + country.report(virus) + '</h4>');
     }
     else if ($("#continue").val() == "no"){
-      $("#Output").append('<p>' + "The outbreaks is over!" + '</p>');
+      $("#Output").append('<h4>' + "The outbreak is over!" + '</h4>');
       console.log("cont no");
     }
   }

@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'dj_grossnormal';
+  src: url('fonts/DJGROSS-webfont.eot');
+  src: url('fonts/DJGROSS-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fonts/DJGROSS-webfont.woff') format('woff'),
+       url('fonts/DJGROSS-webfont.woff2') format('woff2'),
+       url('fonts/DJGROSS-webfont.ttf') format('truetype'),
+       url('fonts/DJGROSS-webfont.svg#dj_grossnormal') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body
 {
   background-color: lightgray;
@@ -15,9 +27,8 @@ section
 
 header
 {
-  background-color: darkgray;
-  opacity: 0.7;
-  width: 65%;
+  background-color: rgba(128, 128, 128, 0.7);
+  width: 55%;
   padding: 10px;
   text-align: center;
   margin-left: auto;
@@ -27,37 +38,68 @@ header
 
 header img.left
 {
-  float: left;
+  display: inline-block;
   margin-left: 20px;
+  margin-right: 20px;
   height:50px;
   vertical-align: middle;
 }
 
 header img.right
 {
-  float: right;
+  display: inline-block;
   margin-right: 20px;
+  margin-left: 20px;
   height:50px;
   vertical-align: middle;
 }
 
-#title{
-  display: inline-block;
-  vertical-align: middle;
-  clear: both;
+h3{
+  font-size: 2em;
+  margin-top: 0.5em;
 }
 
-#description{
-  margin-right: auto; 
-  margin-left: auto;
-  clear: both;
-  text-align: center;
+h4{
+  font-size: 1.6em;
+  margin-top: 0.5em;
+}
+
+label{
+  font-size: 1.5em;
+  font-family: monospace;
+  margin-bottom: 1em;
+}
+
+select{
+  font-family: monospace;
+  background-color: rgba(200, 200, 200, 0.8);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  padding:10px;
+}
+
+option{
+  font-family: monospace;
+  background-color: rgba(200, 200, 200, 0.8);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  padding:10px;  
+}
+
+
+#title{
+  font-family: dj_grossnormal;
+  font-size: 2.5em;
+  display: inline-block;
+  vertical-align: middle;
+  
 }
 
 #Input{
-  background-color: darkgray;
+  background-color: rgba(128, 128, 128, 0.7);
   display: table;
-  opacity: 0.9;
   width: 30%;
   margin-left: auto;
   margin-right: auto;
@@ -66,10 +108,7 @@ header img.right
 }
 
 #Output{
-  background-color: darkgray;
   display: table;
-  opacity: 0.9;
-  width: 40%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -84,14 +123,19 @@ header img.right
   margin-left: auto;
   margin-right: auto;
   opacity: 1;
-  height: 4em;
-  width: 4em;
+  height: 6em;
+  width: 6em;
   background-size: contain;
   border: 0;
   display: block;
 }
 
 .initial:hover{
+  background-image: url(images/button_pink.png);
+  opacity: 1;
+}
+
+.continue:hover{
   background-image: url(images/button_pink.png);
   opacity: 1;
 }
@@ -103,20 +147,19 @@ header img.right
   margin-left: auto;
   margin-right: auto;
   opacity: 1;
-  height: 4em;
-  width: 4em;
+  height: 6em;
+  width: 6em;
   background-size: contain;
   border: 0;
   display: block;
 }
 
-#biohazard{
-
+strong{
+  color: yellow;
 }
 
 footer{
-  background-color: darkgray;
-  opacity: 0.7;
+  color: white;
   width: 75%;
   margin-left: auto;
   margin-right: auto;
