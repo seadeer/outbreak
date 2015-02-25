@@ -75,39 +75,44 @@ var virusData = {
   rhinovirus: [true,  true, 6]
 }; 
 
+var country, virus;
 
 $(".initial").on('click', function(e){
   e.preventDefault();
-  var countryName = $("#countries option:selected").val();
-  var virusName = $("#viruses option:selected").val();
-
-  var cData = countryData[countryName];
-  var vData = virusData[virusName];
   
-  var country = new Population(countryName, cData[0], cData[1], cData[2]);
-  var virus = new Virus(virusName, vData[0], vData[1], vData[2]);
-
-  $("#Input").append('<label>Is the outbreak still continuing? </label>' + '<select id="continue"><option value = "yes">yes</option><option value = "no">no</option></select>');
 
 //adding the outbreak report to the html
-  $("#Input").append('<section id="Output"><p>' + country.report(virus) + '</p></section>');
+  if($(this).hasClass("initial")) {
+    var countryName = $("#countries option:selected").val();
+    var virusName = $("#viruses option:selected").val();
 
-//changing the behavior of "Submit" button
-  $("button").removeClass('initial').addClass('continue').text('Continue');
+    var cData = countryData[countryName];
+    var vData = virusData[virusName];
 
-    $(".continue").on('click', function(e){
-      e.preventDefault();  
-      if ($("#continue").val() == "yes"){      
-        $("#Output").append('<p>' + country.report(virus) + '</p>');
-      }
-      else if ($("#continue").val() == "no"){
-        $("#Output").append('<p>' + "The outbreak is over!" + '</p>');
+    country = new Population(countryName, cData[0], cData[1], cData[2]);
+    virus = new Virus(virusName, vData[0], vData[1], vData[2]);
+    $("#Input").append('<label>Is the outbreak still continuing? </label>' + '<select id="continue"><option value = "yes">yes</option><option value = "no">no</option></select>');
+
+    $("#Input").append('<section id="Output"><p>' + country.report(virus) + '</p></section>');
+  }
+  else if($(this).hasClass('continue')) {
+    console.log("cont pressed");
+    if ($("#continue").val() == "yes"){
+      $('#Output>p').remove();
+      console.log("cont yes");
+      $("#Output").append('<p>' + country.report(virus) + '</p>');
     }
-  });
+    else if ($("#continue").val() == "no"){
+      $("#Output").append('<p>' + "The outbreaks is over!" + '</p>');
+      console.log("cont no");
+    }
+  }
+//changing the behavior of "Submit" button
 
+  $(this).text('Continue');
+  $(this).removeClass('initial');
+  $('button').addClass('continue');
 });
-
-
 
 
   
