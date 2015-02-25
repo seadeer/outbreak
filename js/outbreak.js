@@ -72,7 +72,8 @@ var countryData = {
 
 var virusData = {
   Ebola:      [false, true, 2],
-  rhinovirus: [true,  true, 6]
+  Zombievirus: [false, true, 2],
+  rhinovirus: [true, true, 6]
 }; 
 
 var country, virus;
@@ -109,7 +110,7 @@ $(".initial").on('click', function(e){
   }
 //changing the behavior of "Submit" button
 
-  $(this).text('Continue');
+  
   $(this).removeClass('initial');
   $('button').addClass('continue');
 });

@@ -1,6 +1,8 @@
 body
 {
   background-color: lightgray;
+  background-image: url('images/zombie_background.jpg');
+  background-size: 100% 100%;
   font-family: monospace; 
 }
 
@@ -14,81 +16,115 @@ section
 header
 {
   background-color: darkgray;
-  width: 75%;
+  opacity: 0.7;
+  width: 65%;
   padding: 10px;
   text-align: center;
-  float: left;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 header img.left
 {
   float: left;
-  margin-left: 15px;
+  margin-left: 20px;
   height:50px;
+  vertical-align: middle;
 }
 
 header img.right
 {
   float: right;
-  margin-right: 15px;
+  margin-right: 20px;
   height:50px;
-}
-
-#title{
-  display: inline;
   vertical-align: middle;
 }
 
-#credits{
-  background-color: darkgray;
+#title{
+  display: inline-block;
+  vertical-align: middle;
   clear: both;
-  width: 25%;
-  float: left;
+}
+
+#description{
+  margin-right: auto; 
+  margin-left: auto;
+  clear: both;
+  text-align: center;
 }
 
 #Input{
   background-color: darkgray;
-  float: left;
+  display: table;
+  opacity: 0.9;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
   clear: both;
 }
 
 #Output{
   background-color: darkgray;
-  float: left;
+  display: table;
+  opacity: 0.9;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
   clear: both;
 }
 
-#description{
-  float: left;
-}
 
 .initial{
-  background-color: #b8211b;
-  font-family: Arial;
-  font-size: 1em;
-  border-color: darkgray;
+  background-image: url(images/button_white.png);
+  border-radius: 100;
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 1;
+  height: 4em;
+  width: 4em;
+  background-size: contain;
+  border: 0;
   display: block;
-  margin-top: 7px;
-  border-radius: 10px;
-  padding: 7px;
+}
+
+.initial:hover{
+  background-image: url(images/button_pink.png);
+  opacity: 1;
 }
 
 .continue{
-  background-color: #FFFFFF;
-  font-family: Arial;
-  font-size: 1em;
-  border-color: darkgray;
+  background-image: url(images/button_white.png);
+  border-radius: 100;
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 1;
+  height: 4em;
+  width: 4em;
+  background-size: contain;
+  border: 0;
   display: block;
-  margin-top: 7px;
-  border-radius: 10px;
-  padding: 7px;  
+}
+
+#biohazard{
+
 }
 
 footer{
   background-color: darkgray;
+  opacity: 0.7;
   width: 75%;
+  margin-left: auto;
+  margin-right: auto;
   bottom: 0;
   position: fixed;
   padding: 0.5em;
+  text-align: center;
+  left: 0;
+  right: 0;
 }
 
