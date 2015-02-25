@@ -60,7 +60,7 @@ var Population = function(popname, cases, wash, contact)
 
   this.report = function(virname)
   {
-      return "In " + this.popname + ", there are " + Math.floor(this.infected(virname)) + " new cases of " + virname.Virname + ".";
+      return "<strong>" + " Outbreak " + "</strong>" + "of " + "<strong>" + virname.Virname + "</strong>" + " in " + this.popname + "!" + "\n" + Math.floor(this.infected(virname)) + " new cases.";
   };
 
 }
